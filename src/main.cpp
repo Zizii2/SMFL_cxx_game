@@ -16,6 +16,12 @@ int main()
         }
 
         window.clear();
+
+        sf::CircleShape shape(50.f);
+        shape.setFillColor(sf::Color(100, 250, 50)); // set the shape color to green
+
+        window.draw(shape); // draw shape to window
+
         window.display();
     }
 }
